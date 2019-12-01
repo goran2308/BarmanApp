@@ -60,6 +60,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-size: .8rem;
 }
 
 .introduction .asterisk {
@@ -141,11 +142,9 @@ body {
 }
 
 .portfolio {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 20px;
-  margin-right: 40px;
+  position: relative;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .portfolio .icon {

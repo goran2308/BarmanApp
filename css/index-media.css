@@ -1,3 +1,20 @@
+@media (min-width: 320px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-grid-rows: 80px 200px 120px 100px;
+        grid-template-rows: 80px 200px 120px 100px;
+  }
+  .container .description {
+    width: 70%;
+  }
+  .container .portfolio {
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 40px 0px !important;
