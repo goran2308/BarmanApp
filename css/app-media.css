@@ -1,0 +1,232 @@
+@media only screen and (min-width: 320px) and (max-width: 567px) {
+  .container {
+    height: 100vh;
+    width: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: 100px 150px 60px;
+        grid-template-rows: 100px 150px 60px;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .container .logo {
+    position: relative !important;
+    -ms-grid-column-align: center !important;
+        justify-self: center !important;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0  !important;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  .container .introduction {
+    position: relative !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 90% !important;
+    font-size: .8rem;
+    margin-top: 20px !important;
+  }
+  .container .search-bar {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    width: 70% !important;
+    -webkit-transform: translateX(-55%) !important;
+            transform: translateX(-55%) !important;
+  }
+  .container #output {
+    width: 100% !important;
+    position: relative !important;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 100px !important;
+  }
+  .container #output .card {
+    width: 70%;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .container #output .card-title {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+  .container #output .ingredients {
+    font-size: .8rem;
+  }
+  .container #output .instructions {
+    font-size: .8rem;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: 100px 190px 70px !important;
+        grid-template-rows: 100px 190px 70px !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .container .logo {
+    -ms-flex-item-align: none !important;
+        -ms-grid-row-align: none !important;
+        align-self: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    margin-top: 40px !important;
+  }
+  .container .introduction {
+    position: relative;
+    width: 70% !important;
+  }
+  .container .search-bar {
+    position: relative;
+    width: 50% !important;
+  }
+  .container #output {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+    grid-gap: 0;
+  }
+  .container #output .card {
+    margin: 30px;
+  }
+  .container #output .card-title {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+  .container #output .ingredients {
+    font-size: .8rem;
+  }
+  .container #output .instructions {
+    font-size: .8rem;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 100px 170px 70px;
+        grid-template-rows: 100px 170px 70px;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .logo {
+    position: relative;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .container .introduction {
+    position: relative;
+    width: 60% !important;
+  }
+  .container .search-bar {
+    position: relative;
+    width: 50% !important;
+  }
+  .container #output {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+  .container #output .card {
+    margin: 30px;
+  }
+  .container #output .card-title {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+  }
+  .container #output .ingredients {
+    font-size: 1rem;
+  }
+  .container #output .instructions {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 100% !important;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 100px 170px 70px;
+        grid-template-rows: 100px 170px 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .container .logo {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .container .introduction {
+    position: relative;
+    width: 50% !important;
+  }
+  .container .search-bar {
+    position: relative;
+    width: 40% !important;
+  }
+  .container #output {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px !important;
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+    grid-gap: 0;
+  }
+  .container #output .card {
+    margin: 40px !important;
+    -ms-grid-column-align: center !important;
+        justify-self: center !important;
+  }
+  .container #output .card-title {
+    padding: 10px 20px;
+  }
+  .container #output .instructions {
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=app-media.css.map */

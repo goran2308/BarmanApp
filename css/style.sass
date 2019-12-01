@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap')
+    
+    
+$bg-clr: #b7b7b7
+$txt-clr: #333232
+
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    background-color: $bg-clr
+    color: $txt-clr
+
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 0px 50px
+
+.logo
+    align-self: flex-start
+    margin-top: 20px
+    font-family: 'Dancing Script', cursive
+    margin-bottom: 30%
+    a
+        font-size: 2.7rem
+        text-decoration: none
+        color: $txt-clr
+        font-weight: bold
+        &:hover
+            color: lighten($txt-clr, 5%)
+
+.title
+    font-size: 2.5rem
+    font-family: 'Dancing Script', cursive
+
+.introduction
+    display: flex
+    width: 50%
+    position: absolute
+    top: 35%
+    left: 50%
+    transform: translate(-50%, -50%)
+    flex-direction: row
+    .asterisk
+        margin-right: 10px
+
+.description
+    font-size: 1.3rem
+    width: 50%
+    margin-top: -50px
+
+.search-bar
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 40%
+    display: flex
+    flex-direction: row
+    .search-input
+        border: none
+        width: 100%
+        height: 50px
+        border-radius: 50px
+        padding-left: 20px
+        font-size: 1.2rem
+        background-color: $txt-clr
+        color: $bg-clr
+    .search-btn
+        align-self: center
+        font-size: 1.6rem
+        color: $bg-clr
+        margin-left: -45px
+        cursor: pointer
+        &:hover
+            color: darken($bg-clr, 10%)
+
+.cocktail-img
+    margin-top: -70px
+    img
+        width: 350px
+
+.btn-link
+    margin: -40px
+    .enter-btn
+        width: 100px
+        height: 35px
+        background-color: $txt-clr
+        color: $bg-clr
+        border: none
+        font-size: 1.2rem
+        border-radius: 5px
+        cursor: pointer
+        &:hover
+            background-color: lighten($txt-clr, 5%)
+    
+.portfolio
+    position: absolute
+    bottom: 0
+    right: 0
+    margin-bottom: 20px
+    margin-right: 40px
+    .icon
+        text-decoration: none
+        color: $txt-clr
+        font-size: 2rem
+        &:hover
+            color: lighten($txt-clr, 5%)
+
+
+#output
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    width: 100%
+    grid-gap: 40px
+    padding: 20px 60px
+    justify-content: center
+    .card
+        width: 1fr
+        border-radius: 10px
+        overflow: hidden
+        background-color: #decdf5
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5)
+        img
+            width: 100%
+        .card-title
+            padding: 20px
+            font-size: 1.3rem
+            font-weight: 600
+        .ingredients
+            padding-left: 10px
+        .instructions
+            padding: 0px 20px
+            padding-top: 10px
