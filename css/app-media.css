@@ -146,9 +146,13 @@
     text-align: center;
     margin: 40px 0;
   }
+  .container .logo a {
+    font-size: 4rem;
+  }
   .container .introduction {
     position: relative;
     width: 60% !important;
+    font-size: 1rem;
   }
   .container .search-bar {
     position: relative;

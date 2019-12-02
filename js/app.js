@@ -1,4 +1,11 @@
 const searchBtn = document.querySelector('.search-btn').addEventListener('click', searchCocktail);
+const input = document.querySelector('.search-input');
+
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        searchCocktail();
+    }
+});
 
 
 async function searchCocktail() {
