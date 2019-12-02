@@ -3,8 +3,8 @@
     display: -ms-grid;
     display: grid;
     justify-items: center;
-    -ms-grid-rows: 20vh 20vh 20vh 20vh 20vh;
-        grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+    -ms-grid-rows: (auto)[5];
+        grid-template-rows: repeat(5, auto);
     height: 100vh;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
